@@ -1,0 +1,36 @@
+@media only screen and (min-width: 1920px) {
+    body {
+      font-size: 16px !important;
+    }
+}
+input:focus{
+   border-right: none !important;
+   border-left: none !important;
+   border-top: none !important; 
+}
+
+.nav-menu{
+    width: 37.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+  /* Ipad css */
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
+
+}
+
+/* Landscape css */
+@media screen and (min-device-width: 480px) and (max-device-width: 767px) { 
+
+}
+
+/* Phone css */
+@media screen and (min-device-width: 240px) and (max-device-width: 479px) { 
+    .nav-menu{
+        display: none;
+    }
+
+}

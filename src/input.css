@@ -1,0 +1,16 @@
+@font-face {
+    font-family: The Hour Tea Serif;
+    src: url("./font/The\ Hour\ Tea\ Serif.ttf") format("opentype");
+  }
+@font-face {
+    font-family: Geist;
+    src: url("./font/Geist-Light.woff2") format("opentype");
+  } 
+  @font-face {
+    font-family: Geist;
+    src: url("./font/Geist-Regular.woff2") format("opentype");
+  } 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
